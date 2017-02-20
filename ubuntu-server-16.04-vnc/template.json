@@ -21,7 +21,7 @@
     "config": {
         "ncpus": 2, 
         "bootloader": "GRUB", 
-        "memsize": 4096, 
+        "memsize": 8192, 
         "boot_device": "os", 
         "boot_partition": "msdos1"
     }, 
@@ -30,7 +30,7 @@
             "type": "DISK", 
             "name": "os", 
             "properties": {
-                "size": 17179869184, 
+                "size": 107374182400, 
                 "mode": "AHCI", 
                 "source": "os"
             }
